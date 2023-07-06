@@ -581,7 +581,9 @@ header{
     gap: 24px;
 }
 
-.label_footer{}
+.label_footer{
+
+}
 
 .footer-form-input{
     width: 264px;
