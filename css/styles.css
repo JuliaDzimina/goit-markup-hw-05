@@ -903,7 +903,7 @@ header{
 }
 
 .modal-form-conteiner-comment{
-     margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .modal-form-comment{
@@ -938,7 +938,6 @@ header{
 .modal-form-aqreement {
     display: inline-flex;
     align-items: center;
-    margin-bottom: 24px;
     gap: 8px;
     color: var(--lightslate);
     font-size: 12px;
