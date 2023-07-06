@@ -855,7 +855,9 @@ header{
     
 }
 
-
+.modal-label-con{
+    position: relative;
+}
     
 
 
