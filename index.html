@@ -383,9 +383,25 @@
                     </a>
                 </li>
             </ul>
-
-
         </div>
+
+        <div class="footer-subscription">
+            <p  class="footer-p-sm">Subscribe</p>
+            <form class="footer-form" name="subscribe_form">
+                <label >
+                    <input class="footer-form-input" type="email" name="subscribe_form_email" placeholder="E-mail"/>
+                </label>
+                <button class="footer-btn button-title" type="submit">Subscribe
+                        <svg class="footer-icon-plane" width="24" height="24">
+                              <use href="./images/icons.svg#icon-plane"></use>
+                        </svg>
+                </button>
+
+            </form>
+
+            
+        </div>
+
     </div>
 
   </footer>
@@ -440,7 +456,19 @@
 
             <label class="modal-form-field"> 
                 <span class="modal-form-label"> Comment</span>
-                <textarea class="modal-form-comment" name="comment" rows="7" placeholder="Text input">  </textarea>
+                <textarea  class="modal-form-comment" name="comment" rows="7" placeholder="Text input"></textarea>
+            </label>
+
+            <label class="modal-form-aqreement">
+                <input type="checkbox" name="" class="modal-form-checkbox visually-hidden"/>
+                <span class="modal-form-custom-checkbox">
+                    <svg class="modal-form-checkbox-icon" width="10" height="8">
+                      <use href="./images/icons.svg#icon-aqree"></use>
+                    </svg>
+                </span>
+                <span class="modal-form-aqreement-desc"> I accept the terms and conditions of the 
+                    <a class="modal-form-link" href="#">Privacy Policy</a>
+                </span>
             </label>
 
 
