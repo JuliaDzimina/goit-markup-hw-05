@@ -948,7 +948,7 @@ header{
 .modal-form-checkbox {  
 }
 .modal-form-custom-checkbox { 
-    display: inline-flex; 
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 16px;
@@ -962,6 +962,8 @@ header{
 .modal-form-checkbox:checked + .modal-form-custom-checkbox {  
     border-color: var(--ocean);
     background-color: var(--ocean);
+    border: none;
+    fill: var(--hover-focus-color)
 }
 
 .modal-form-checkbox-icon {
