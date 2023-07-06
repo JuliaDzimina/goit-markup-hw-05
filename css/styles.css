@@ -846,19 +846,18 @@ header{
 
 .modal-form-field {
     display: block;
-    margin-bottom: 8px;
-    position: relative;
-}
-
-.modal-form-label {
-    display: block;
     margin-bottom: 4px;
+    position: relative;
     color: var(--lightslate);
     font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.48px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     
 }
+
+
+    
+
 
 .modal-form-input {
     width: 100%;
