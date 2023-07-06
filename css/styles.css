@@ -584,7 +584,7 @@ header{
 .label_footer{}
 
 .footer-form-input{
-    width: 246px;
+    width: 264px;
     height: 40px;
     padding: 8px 16px;
     border-radius: 4px;
@@ -836,6 +836,10 @@ header{
 }
 
 .modal-form {
+}
+
+.modal-form-conteiner{
+    margin-bottom: 8px;
 }
 
 .modal-form-field {
