@@ -463,24 +463,29 @@
                     </div>
             </div>
                
-                <label class="modal-form-field">
-                    <span class="modal-form-label"> Comment</span>
-                    <textarea  class="modal-form-comment" name="comment" rows="7" placeholder="Text input"></textarea>
-                </label>
-                <label class="modal-form-aqreement">
-                    <input type="checkbox" name="checkbox_aqreement" class="modal-form-checkbox visually-hidden"/>
-                    <span class="modal-form-custom-checkbox">
-                        <svg class="modal-form-checkbox-icon" width="10" height="8">
-                          <use href="./images/icons.svg#icon-aqree"></use>
-                        </svg>
-                    </span>
-                    <span class="modal-form-aqreement-desc"> I accept the terms and conditions of the
-                        <a class="modal-form-link" href="#">Privacy Policy</a>
-                    </span>
-                </label>
+            <div class="modal-form-conteiner-comment">
+                 <label class="modal-form-field" for="user-comment">
+                    Comment</label>  
+                <textarea  class="modal-form-comment" name="user-comment" id="user-comment" rows="7" placeholder="Text input"></textarea>
+                             
+            </div>       
+
+            <div class="modal-form-conteiner-aqreement">
+                    <label class="modal-form-aqreement">
+                        <input type="checkbox" name="checkbox_aqreement" class="modal-form-checkbox visually-hidden"/>
+                        <span class="modal-form-custom-checkbox">
+                            <svg class="modal-form-checkbox-icon" width="10" height="8">
+                              <use href="./images/icons.svg#icon-aqree"></use>
+                            </svg>
+                        </span>
+                        <span class="modal-form-aqreement-desc"> I accept the terms and conditions of the
+                            <a class="modal-form-link" href="#">Privacy Policy</a>
+                        </span>
+                    </label>
+            </div>
                 
                 <button class="modal-btn-send button-title" type="submit"> Send </button>
-            </div>
+            
             
         </form>
 
