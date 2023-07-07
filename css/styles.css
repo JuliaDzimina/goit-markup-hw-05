@@ -936,8 +936,7 @@ header{
 }
 
 .modal-form-aqreement {
-    display: inline-flex;
-    align-items: center;
+    
     gap: 8px;
     color: var(--lightslate);
     font-size: 12px;
@@ -962,11 +961,13 @@ header{
 .modal-form-checkbox:checked + .modal-form-aqreement> .modal-form-custom-checkbox {  
     background-color: var(--ocean);
     border: none;
-    fill: var(--hover-focus-color);
+    fill: var(--cloud-color);
 }
 
 .modal-form-checkbox-icon {
     opacity: 0;
+    
+    
 }
 
 .modal-form-checkbox:checked + .modal-form-custom-checkbox > .modal-form-checkbox-icon {
